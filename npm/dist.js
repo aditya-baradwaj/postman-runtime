@@ -1,6 +1,5 @@
 const fs = require('fs'),
     path = require('path'),
-    chalk = require('chalk'),
     { rm, mkdir } = require('shelljs'),
     browserify = require('browserify'),
     webpack = require('webpack'),
@@ -23,7 +22,6 @@ const fs = require('fs'),
     OUT_DIR = path.join(__dirname, '../dist'),
     OUTPUT = path.join(OUT_DIR, 'index.js');
 
-console.info(chalk.yellow.bold('Generating bundle in "dist" directory...'));
 
 rm('-rf', OUT_DIR);
 mkdir('-p', OUT_DIR);
