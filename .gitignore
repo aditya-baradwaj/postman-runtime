@@ -44,4 +44,4 @@ Thumbs.db
 # - Don't commit dist (but include is published package)
 # we're committing dist/ in channel/beta branch because we want it to be
 # usable when we use yarn 1.x (https://github.com/yarnpkg/yarn/issues/5235)
-/dist/
+# /dist/
